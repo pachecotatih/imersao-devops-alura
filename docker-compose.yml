@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    container_name: imersao-devops-app
+    ports:
+      - "8100:8100"
+    volumes:
+      - .:/app
+    
+
